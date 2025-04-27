@@ -10,6 +10,22 @@
 This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
 Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
+## アプリケーション概要 (日本語)
+
+このアプリケーションは、犬の成長記録を管理するためのものです。[v0.dev](https://v0.dev) を使用して開発されました。
+
+### 主な機能 (推定)
+
+- **成長記録**: 日々の体重や体高などの成長データを記録・追加できます。
+- **記録一覧**: 登録された成長記録をリスト形式で確認できます。
+- **統計表示**: 記録されたデータに基づき、成長の推移をグラフなどで視覚的に表示します。
+- **テーマ**: ライトモードとダークモードの切り替えに対応しています。
+- **UI**: shadcn/ui などのモダンな UI コンポーネントを使用している可能性があります。
+
+### コントリビューターによる修正
+
+- **React バージョンの修正**: アプリケーション実行時に `TypeError: Cannot read properties of null (reading 'useReducer')` エラーが発生していたため、`package.json` 内の React および React DOM のバージョンを `^19` から `^18` に修正しました。これにより、依存関係の不整合が解消され、アプリケーションが正常に動作するようになりました。
+
 ## Deployment
 
 Your project is live at:
